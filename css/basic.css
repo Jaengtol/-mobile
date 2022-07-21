@@ -1,0 +1,33 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap');
+
+
+
+body { font-family:'Noto Sans KR', 'Malgun Gothic','맑은 고딕', sans-serif; font-size:14px; }
+
+.container {  max-width:640px; min-width:320px; height:1200px; margin:0 auto;  }
+
+header  { background:#fff; left:0; width:100%; height:60px;  }
+.mainC { margin-left: 20px; }
+.mainC span { color: #276eff; margin-left: 10px; letter-spacing: 0.1em; font-size: 18px; }  
+.set { float: right; width: 10px; height: 10px; margin-right: 20px; }
+.set img { width: 25px; }
+
+.mainBox { background: #276eff; width: 500px; height: 250px; margin-left: 70px; margin-top: 30px; border-radius: 30px;   }
+.subBox { background: #fff;  width: 400px; height: 130px;  border-radius: 30px; margin-left: 120px; margin-top: -210px; }
+.subBox > p {  text-align: center ; font-size: 20px; font-weight: bold; padding-top: 30px; } 
+.subBox2 { background: #fff; width: 200px; height: 30px;   border-radius: 30px; margin-left: 220px; margin-top: 20px; text-align: center; font-weight: bold; }
+.subBox2 p { color: #000; padding-top: 5px; }
+
+.mae1 { margin-top: 50px; }
+.mae1 strong { color: #000; font-size: 20px; }
+.mae1 p { color: red; float: right; }
+
+.search_sub { margin-top: 30px; margin-left: 10px; text-align: center; }
+
+.gameMenu { display: flex; margin-top: 100px; }
+.gameMenu img { margin-right: 30px; margin-top: -50px; width:180px; height:180px; border-radius: 30px; justify-content: space-between; }
+.gameMenu p { margin-top: 10px; color: rgb(172, 10, 10); }
+.gameMenu .name { color: rgb(96, 96, 96);  margin-top: -20px; font-size: 8px; margin-left: 80px; }
+.gameMenu span { color: #000; padding: 20px; font-size: 12px; }
+
